@@ -11,7 +11,6 @@ sum = 0
 while fib.last <= 4000000
   newest = fib.last + fib[-2]
   fib.push(newest)
-  puts newest
   sum = sum + newest if newest.even? and newest <= 4000000
 end
 
